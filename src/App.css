@@ -1,5 +1,36 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  height: 100vh;
+}
+
+button {
+  margin-top: 20px;
+  padding: 15px 30px;  /* Increased padding for a bigger button */
+  font-size: 18px;     /* Increased font size */
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid #ccc; /* Slightly thicker border */
+  border-radius: 8px;     /* More pronounced border radius for rounded corners */
+  transition: background-color 0.3s, transform 0.3s; /* Add transition for hover effects */
+}
+
+h1 {
+  color: #fff;
+  padding: 20px 20px 0 20px;
 }
 
 .App-logo {
@@ -35,4 +66,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.green-background {
+  background-color: #086440;
+}
+
+.black-background {
+  background-color: #373737;
 }
